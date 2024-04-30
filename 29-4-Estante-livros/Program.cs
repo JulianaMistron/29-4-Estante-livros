@@ -1,6 +1,7 @@
 ﻿//criar estante de livros, onde a estante é um vetor de 10 livros fixo e depois imprimir a estante inteira ou a
 //posição q eu escoher, informações relevantes a um livro; titulo, autor/es, data lancamento, editora, edição,
 //isbn, qtde pg,...inserção sequencial
+
 int size = 10;
 Livro[] livros = new Livro[size];
 
@@ -25,7 +26,7 @@ for (int i = 0; i < size; i++)
     l1.DefinirEdicao(int.Parse(Console.ReadLine()));
 
     Console.WriteLine("Digite o ISBN: ");
-    l1.DefinirIsbn(int.Parse(Console.ReadLine()));
+    l1.DefinirIsbn(Console.ReadLine());
 
     Console.WriteLine("Digite a quantidade de páginas: ");
     l1.DefinirQtPag(int.Parse(Console.ReadLine()));

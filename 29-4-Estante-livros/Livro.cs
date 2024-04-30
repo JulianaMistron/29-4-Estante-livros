@@ -14,7 +14,7 @@ public class Livro
     public DateOnly lancamento;
     public string editora;
     public int edicao;
-    public int isbn;
+    public string isbn;
     public int qtpag;
 
     public Livro()
@@ -41,7 +41,7 @@ public class Livro
     {
         this.edicao = ed;
     }
-    public void DefinirIsbn(int isb)
+    public void DefinirIsbn(string isb)
     {
         this.isbn = isb;
     }
